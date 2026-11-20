@@ -2018,7 +2018,9 @@ MonoBehaviour:
   nextButton: {fileID: 1606752015}
   dialogue:
   - Hey
+  - Isnt your name GreenMan
   - Could you find my snowman?
+  - Please... GreenMan you are my only hope.
   alternateDialogue:
   - You found my snowman
   - Thanks.
