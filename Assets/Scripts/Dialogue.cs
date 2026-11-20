@@ -12,6 +12,7 @@ public class Dialogue : MonoBehaviour
 
     [SerializeField] private UnityEvent onStartDialogue;
     [SerializeField] private UnityEvent onEndDialogue;
+    [SerializeField] private UnityEvent onEndAltDialogue;
 
     private int currentIndex = -1;
 
@@ -70,7 +71,7 @@ public class Dialogue : MonoBehaviour
             else
             {
                 textBox.text = "";
-                onEndDialogue?.Invoke();
+                onEndAltDialogue?.Invoke();
                 currentIndex = -1;
                 nextButton?.onClick.RemoveListener(NextDialogue);
             }
