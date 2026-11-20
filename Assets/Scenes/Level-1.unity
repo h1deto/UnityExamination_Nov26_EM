@@ -1500,7 +1500,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: e8c0b3d598637a34497a6aad37324f27, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.46
+  m_Volume: 0.139
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1512,9 +1512,9 @@ AudioSource:
   MaxDistance: 10.1
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1850,6 +1850,10 @@ PrefabInstance:
       propertyPath: coinText
       value: 
       objectReference: {fileID: 2034590733}
+    - target: {fileID: 5924027033088893172, guid: 9be277016906864458a15d4644a56267, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 88afb8655271d024ba86b3ab75f34bcb, type: 2}
     - target: {fileID: 8611436876620571720, guid: 9be277016906864458a15d4644a56267, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.012
