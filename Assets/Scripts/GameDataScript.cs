@@ -10,6 +10,8 @@ public class GameDataScript : MonoBehaviour
     
     [Tooltip("Drag text here to be used to draw coin amount on canvas.")]
     [SerializeField] public TextMeshProUGUI coinText;
+
+    private bool snowMan = false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
